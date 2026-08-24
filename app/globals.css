@@ -1,7 +1,7 @@
 :root { --paper: #f2efe5; --ink: #1c241c; --olive: #65734d; --rust: #a34f32; --line: rgba(28,36,28,.2); }
 * { box-sizing: border-box; }
 html { background: var(--paper); }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, sans-serif; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: ui-monospace, "Courier New", monospace; }
 button, input { font: inherit; }
 button { color: inherit; }
 .field-shell { min-height: 100vh; background-image: linear-gradient(rgba(101,115,77,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(101,115,77,.06) 1px, transparent 1px); background-size: 32px 32px; }
